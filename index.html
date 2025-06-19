@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4b8e5e8e2e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <header class="header">
     <div class="container">
@@ -23,7 +25,7 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav> 
+      </nav>
     </div>
   </header>
 
@@ -31,8 +33,22 @@
     <!-- HERO SECTION -->
     <section class="hero-section" id="home">
       <div class="hero-content">
-        <h1 class="hero-title">Hi, I'm Mahraib Fatima <span class="sparkle">✨</span></h1>
-        <p class="hero-subtitle">Computer Science Student & Machine Learning Engineer.</p>
+        <div class="hero-intro">
+          <h1 class="hero-title">Mahraib Fatima</h1>
+          <p class="hero-subtitle">Junior Machine Learning Engineer <br> experienced in Deep Learning.</p>
+        </div>
+        <section class="section about-section" id="about">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-content">
+            <p>I'm a Junior Machine Learning Engineer with hands-on experience in building and deploying deep learning solutions. My background in Computer Science provides me with a robust understanding of algorithms, data structures, and artificial intelligence.</p>
+            <p style="margin-top: 1.2rem;">Driven by curiosity and a love for innovation, I enjoy tackling challenging problems, working collaboratively, and contributing to open-source projects. I believe in combining analytical rigor with creative thinking to deliver impactful results.</p>
+          </div>
+        </section>
+        <div style="text-align:center; margin: 1.5rem 0;">
+          <a class="resume-btn" href="https://github.com/MahraibFatima/Resume/blob/main/MahraibFatima_resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+        </div>
+      </div>
+      <div class="hero-actions">
         <div class="hero-links">
           <a href="mailto:mahraibfatima5@gmail.com" class="social-link" title="Email" target="_blank" aria-label="Email">
             <i class="fas fa-envelope"></i>
@@ -43,80 +59,6 @@
           <a href="https://www.linkedin.com/in/mahraib-fatima/" class="social-link" title="LinkedIn" target="_blank" aria-label="LinkedIn">
             <i class="fab fa-linkedin"></i>
           </a>
-          <a class="resume-btn" href="https://github.com/MahraibFatima/Resume/blob/main/MahraibFatima_resume.pdf" target="_blank" rel="noopener noreferrer">
-            View Resume
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT SECTION -->
-    <section class="section about-section" id="about">
-      <h2 class="section-title">About Me</h2>
-      <div class="section-content">
-        <p>I'm a passionate Computer Science student specializing in Machine Learning with a strong academic record (GPA: 3.79/4.00). My work focuses on building intelligent systems and solving complex problems through data-driven approaches.</p>
-        
-        <h3 class="subsection-title">Education</h3>
-        <p>Currently pursuing a Bachelor's degree in Computer Science with a focus on Artificial Intelligence and Machine Learning.</p>
-        
-        <h3 class="subsection-title">Interests</h3>
-        <ul class="about-list">
-          <li>Machine Learning & Deep Learning</li>
-          <li>MLOps and Production Deployment</li>
-          <li>Reinforcement Learning</li>
-          <li>Open Source Contribution</li>
-        </ul>
-        
-        <p>I'm always excited to collaborate on interesting projects or discuss new opportunities. Feel free to reach out!</p>
-      </div>
-    </section>
-
-    <!-- SKILLS SECTION -->
-    <section class="section skills-section" id="skills">
-      <h2 class="section-title">Technical Skills</h2>
-      <div class="section-content">
-        <div class="skills-categories">
-          <div class="skills-category">
-            <h3 class="skills-category-title">Programming Languages</h3>
-            <div class="skills-grid">
-              <span class="skill-tag">Python</span>
-              <span class="skill-tag">C++</span>
-              <span class="skill-tag">Java</span>
-              <span class="skill-tag">JavaScript</span>
-              <span class="skill-tag">SQL</span>
-            </div>
-          </div>
-          
-          <div class="skills-category">
-            <h3 class="skills-category-title">Machine Learning</h3>
-            <div class="skills-grid">
-              <span class="skill-tag">TensorFlow</span>
-              <span class="skill-tag">Scikit-Learn</span>
-              <span class="skill-tag">NumPy</span>
-              <span class="skill-tag">Pandas</span>
-              <span class="skill-tag">MLflow</span>
-            </div>
-          </div>
-          
-          <div class="skills-category">
-            <h3 class="skills-category-title">Web Development</h3>
-            <div class="skills-grid">
-              <span class="skill-tag">HTML</span>
-              <span class="skill-tag">CSS</span>
-              <span class="skill-tag">JavaScript</span>
-            </div>
-          </div>
-          
-          <div class="skills-category">
-            <h3 class="skills-category-title">Tools & Technologies</h3>
-            <div class="skills-grid">
-              <span class="skill-tag">Docker</span>
-              <span class="skill-tag">Git/GitHub</span>
-              <span class="skill-tag">Linux</span>
-              <span class="skill-tag">MySQL</span>
-              <span class="skill-tag">Vercel</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -128,36 +70,14 @@
         <div class="projects-grid">
           <article class="project-card">
             <h3 class="project-title">Slack-bot</h3>
-            <p class="project-description">A customizable Slack bot that handles various operations and automates team workflows.</p>
+            <p class="project-description">A customizable Slack bot that handles various operations and automates team
+              workflows.</p>
             <div class="project-tech">
               <span>Python</span>
               <span>Slack API</span>
             </div>
             <a href="https://github.com/MahraibFatima/Slack-bot" class="project-link" target="_blank">View on GitHub</a>
           </article>
-          
-          <article class="project-card">
-            <h3 class="project-title">Spotify Playlist Downloader</h3>
-            <p class="project-description">CLI application to download Spotify playlists by providing the playlist URL.</p>
-            <div class="project-tech">
-              <span>Python</span>
-              <span>Spotify API</span>
-              <span>CLI</span>
-            </div>
-            <a href="https://github.com/MahraibFatima/spotifyPlaylistDownloader" class="project-link" target="_blank">View on GitHub</a>
-          </article>
-          
-          <article class="project-card">
-            <h3 class="project-title">Jarvis AI Assistant</h3>
-            <p class="project-description">Voice-controlled virtual assistant capable of performing various tasks through natural language commands.</p>
-            <div class="project-tech">
-              <span>Python</span>
-              <span>Speech Recognition</span>
-              <span>Automation</span>
-            </div>
-            <a href="https://github.com/MahraibFatima/Jarvis" class="project-link" target="_blank">View on GitHub</a>
-          </article>
-          
           <article class="project-card">
             <h3 class="project-title">Masar-e-Najah</h3>
             <p class="project-description">Web platform designed to help users navigate their career paths.</p>
@@ -166,27 +86,46 @@
               <span>JavaScript</span>
               <span>Vercel</span>
             </div>
-            <a href="https://github.com/MahraibFatima/Masar-e-Najah" class="project-link" target="_blank">View on GitHub</a>
+            <a href="https://github.com/MahraibFatima/Masar-e-Najah" class="project-link" target="_blank">View on
+              GitHub</a>
           </article>
+
+          <article class="project-card">
+            <h3 class="project-title">Jarvis AI Assistant</h3>
+            <p class="project-description">Voice-controlled virtual assistant capable of performing various tasks
+              through natural language commands.</p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Speech Recognition</span>
+              <span>Automation</span>
+            </div>
+            <a href="https://github.com/MahraibFatima/Jarvis" class="project-link" target="_blank">View on GitHub</a>
+          </article>
+
+
           <article class="project-card">
             <h3 class="project-title">SilentLens</h3>
-            <p class="project-description">A web gallery that displays random images of <a href="https://bio.link/jamiyat" target="_blank" rel="noopener noreferrer">Jami</a>.</p>
+            <p class="project-description">A web gallery that displays random images of <a
+                href="https://bio.link/jamiyat" target="_blank" rel="noopener noreferrer">Jami</a>.</p>
             <div class="project-tech">
               <span>Web Development</span>
               <span>Astro</span>
               <span>Vercel</span>
             </div>
-            <a href="https://github.com/MahraibFatima/SilentLens" class="project-link" target="_blank">View on GitHub</a>
+            <a href="https://github.com/MahraibFatima/SilentLens" class="project-link" target="_blank">View on
+              GitHub</a>
           </article>
           <article class="project-card">
-            <h3 class="project-title">Library Management System</h3>
-            <p class="project-description">A library management system for book tracking and user management.</p>
+            <h3 class="project-title">Spotify Playlist Downloader</h3>
+            <p class="project-description">CLI application to download Spotify playlists by providing the playlist URL.
+            </p>
             <div class="project-tech">
-              <span>Cpp</span>
-              <span>OOPs</span>
+              <span>Python</span>
+              <span>Spotify API</span>
               <span>CLI</span>
             </div>
-            <a href="https://github.com/MahraibFatima/LibraryManagmentSystem" class="project-link" target="_blank">View on GitHub</a>
+            <a href="https://github.com/MahraibFatima/spotifyPlaylistDownloader" class="project-link"
+              target="_blank">View on GitHub</a>
           </article>
           <article class="project-card">
             <h3 class="project-title">iktasaba</h3>
@@ -199,6 +138,17 @@
             <a href="https://github.com/MahraibFatima/iktasaba" class="project-link" target="_blank">View on GitHub</a>
           </article>
           <article class="project-card">
+            <h3 class="project-title">Library Management System</h3>
+            <p class="project-description">A library management system for book tracking and user management.</p>
+            <div class="project-tech">
+              <span>Cpp</span>
+              <span>OOPs</span>
+              <span>CLI</span>
+            </div>
+            <a href="https://github.com/MahraibFatima/LibraryManagmentSystem" class="project-link" target="_blank">View
+              on GitHub</a>
+          </article>
+          <article class="project-card">
             <h3 class="project-title">Rudder</h3>
             <p class="project-description">A project of wine prediction using machine learning.</p>
             <div class="project-tech">
@@ -208,6 +158,59 @@
             </div>
             <a href="https://github.com/MahraibFatima/rudder" class="project-link" target="_blank">View on GitHub</a>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="section-content education-cards">
+        <div class="education-card">
+          <p class="education-institution">University of Sahiwal</p>
+          <p class="education-degree">BS Computer Science, Computer Programming</p>
+          <p class="education-dates">Sep 2022 - Jan 2026</p>
+          <p class="education-grade">Grade: 3.82/4.00</p>
+          <br>
+          <div class="project-tech">
+            <span class="education-skill-tag">Problem Solving</span>
+            <span class="education-skill-tag">Data Structures</span>
+            <span class="education-skill-tag">OOPs</span>
+            <span class="education-skill-tag">Statistics</span>
+            <span class="education-skill-tag">SQL</span>
+            <span class="education-skill-tag">C (Programming Language)</span>
+            <span class="education-skill-tag">Computer Science</span>
+            <span class="education-skill-tag">C++</span>
+            <span class="education-skill-tag">Data Structures</span>
+          </div>
+        </div>
+        <div class="education-card">
+          <p class="education-institution">Govt. Post Graduate College for Women</p>
+          <p class="education-degree">Intermediate - ICs, Computer Science</p>
+          <p class="education-dates">Jul 2020 - May 2022</p>
+          <p class="education-grade">Grade: A+</p>
+          <br>
+          <div class="project-tech">
+            <span class="education-skill-tag">Problem Solving</span>
+            <span class="education-skill-tag">Data Structures</span>
+            <span class="education-skill-tag">OOPs</span>
+            <span class="education-skill-tag">Mathematics</span>
+            <span class="education-skill-tag">C++</span>
+            <span class="education-skill-tag">Computer Science</span>
+          </div>
+        </div>
+        <div class="education-card">
+          <p class="education-institution">Govt. Girls High School</p>
+          <p class="education-degree">Matric, Computer Science</p>
+          <p class="education-dates">Apr 2018 - Mar 2020</p>
+          <p class="education-grade">Grade: A+</p>
+          <br>
+          <div class="project-tech">
+            <span class="education-skill-tag">Problem Solving</span>
+            <span class="education-skill-tag">C (Programming Language)</span>
+            <span class="education-skill-tag">Computer Science</span>
+            <span class="education-skill-tag">Computer History</span>
+          </div>
         </div>
       </div>
     </section>
@@ -242,4 +245,5 @@
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
+
 </html>
