@@ -283,25 +283,23 @@ body {
   text-decoration: none;
   font-weight: 600;
   transition: var(--transition);
+  background-color: white;
+  color: var(--primary-color);
+  border: 1.5px solid var(--primary-color);
 }
 
-.email-link {
+.contact-link:hover {
   background-color: var(--primary-color);
   color: white;
 }
 
-.email-link:hover {
-  background-color: var(--primary-dark);
-  color: white;
-}
-
-.linkedin-link, .github-link {
+.email-link, .linkedin-link, .github-link {
   background-color: white;
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 1.5px solid var(--primary-color);
 }
 
-.linkedin-link:hover, .github-link:hover {
+.email-link:hover, .linkedin-link:hover, .github-link:hover {
   background-color: var(--primary-color);
   color: white;
 }
